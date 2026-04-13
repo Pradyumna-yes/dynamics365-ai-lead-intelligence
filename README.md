@@ -36,6 +36,71 @@ It analyzes lead data (company, topic, job title) and generates:
 * DeepSeek API (LLM)
 * JSON Parsing
 
+  ## 🔁 Visual Flow (Simplified)
+
+---
+
+### 1️⃣ User Trigger
+
+User manually runs the flow from a Lead record in Dynamics 365
+
+https://github.com/user-attachments/assets/d124814c-0ab1-4875-808d-63b571b14607
+
+<img width="1691" height="952" alt="User Trigger" src="https://github.com/user-attachments/assets/d124814c-0ab1-4875-808d-63b571b14607" />
+
+---
+
+### 2️⃣ Get Lead Data
+
+Fetches Company Name, Topic, and Job Title
+
+https://github.com/user-attachments/assets/fd6999c2-8437-4656-b6b8-b171e083ff41
+
+<img width="578" height="300" alt="Get Lead Data" src="https://github.com/user-attachments/assets/fd6999c2-8437-4656-b6b8-b171e083ff41" />
+
+---
+
+### 3️⃣ Format Prompt
+
+Transforms lead data into structured input for AI
+
+---
+
+### 4️⃣ Call AI API
+
+Sends request to DeepSeek model
+
+https://github.com/user-attachments/assets/d959c1ac-0fc2-49d0-9e93-1643fb89fa78
+
+<img width="578" height="885" alt="Call AI API" src="https://github.com/user-attachments/assets/d959c1ac-0fc2-49d0-9e93-1643fb89fa78" />
+
+---
+
+### 5️⃣ Parse JSON Response
+
+Extracts structured AI output (score, action, urgency, reason)
+
+---
+
+### 6️⃣ Update Lead Fields
+
+Updates AI Score, Insight, and Next Best Action
+
+https://github.com/user-attachments/assets/fd9367a4-3b72-4cd2-b231-8323655e0680
+
+<img width="1680" height="328" alt="Update Lead Fields" src="https://github.com/user-attachments/assets/fd9367a4-3b72-4cd2-b231-8323655e0680" />
+
+---
+
+### 7️⃣ Create Task in CRM
+
+Creates a follow-up task linked to the Lead
+
+https://github.com/user-attachments/assets/403b5e62-e34e-453c-977a-ba1843bce77e
+
+<img width="1681" height="935" alt="Create Task" src="https://github.com/user-attachments/assets/403b5e62-e34e-453c-977a-ba1843bce77e" />
+
+
 ---
 
 ## 🔥 Features
