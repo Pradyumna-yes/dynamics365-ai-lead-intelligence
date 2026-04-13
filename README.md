@@ -165,8 +165,6 @@ It analyzes lead data (company, topic, job title) and generates:
 ---
 
 ### 🔁 Visual Flow (Simplified)
-
-```
 User Trigger
      ↓
 
@@ -188,10 +186,6 @@ Update Lead Fields
 <img width="1680" height="328" alt="image" src="https://github.com/user-attachments/assets/fd9367a4-3b72-4cd2-b231-8323655e0680" />
 Create Task in CRM
 <img width="1681" height="935" alt="image" src="https://github.com/user-attachments/assets/403b5e62-e34e-453c-977a-ba1843bce77e" />
-
-```
-
----
 
 ## 📦 Setup
 
