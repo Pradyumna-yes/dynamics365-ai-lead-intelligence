@@ -36,7 +36,10 @@ It analyzes lead data (company, topic, job title) and generates:
 * DeepSeek API (LLM)
 * JSON Parsing
 
-  ## 🔁 Visual Flow (Simplified)
+<img width="1024" height="1536" alt="System Design" src="https://github.com/user-attachments/assets/f4f0da01-0159-4b4d-a989-33ab7f01fa78" />
+
+
+  ## 🔁 Visual Flow
 
 ---
 
