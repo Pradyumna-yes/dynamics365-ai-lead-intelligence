@@ -1,16 +1,69 @@
 # 🚀 AI Sales Assistant (Power Automate + Dynamics 365)
 
-## 📌 Overview
+## 📌 Project Description
 
-This project automates lead qualification using AI.
+This project demonstrates an AI-powered lead qualification system built using **Microsoft Dynamics 365**, **Power Automate**, and an external **LLM (DeepSeek API)**.
 
-It analyzes lead data (company, topic, job title) and generates:
+The solution analyzes lead information such as company, topic, and job title to generate:
 
-* 🔢 AI Score
-* 💡 Insight
-* 🎯 Next Best Action
+* 🔢 AI-based lead score
+* 💡 Contextual insight
+* 🎯 Recommended next best action
+
+All outputs are automatically written back into Dynamics 365 and used to trigger follow-up actions like task creation.
 
 ---
+
+## 🎯 Why I Built This
+
+In traditional CRM workflows, lead qualification is:
+
+* Manual
+* Time-consuming
+* Inconsistent across sales teams
+
+This project explores how **LLMs can augment CRM systems** by:
+
+* Automating decision-making
+* Standardizing lead evaluation
+* Reducing response time
+* Assisting sales teams with actionable insights
+
+---
+
+## 🧪 Project Scope (POC)
+
+This is a **Proof of Concept (POC)** built to understand:
+
+* How to integrate **LLMs with Dynamics 365**
+* How to structure prompts for business decision-making
+* How to orchestrate AI workflows using **Power Automate**
+* How to handle structured AI responses (JSON) inside enterprise systems
+
+---
+
+## 🚀 Exploration Phase
+
+This project represents the **first phase** of exploring LLM integration within enterprise CRM systems.
+
+Future iterations may include:
+
+* Automated triggers (real-time scoring)
+* Email/communication automation
+* Multi-model AI support
+* Analytics and reporting dashboards
+
+---
+
+## 🧠 Key Learning
+
+This project helped in understanding:
+
+* End-to-end AI workflow integration
+* Prompt engineering for business use cases
+* Dataverse + Power Automate orchestration
+* Practical challenges in connecting LLMs with enterprise systems
+
 
 ## 🧠 How It Works
 
