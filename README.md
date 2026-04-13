@@ -169,7 +169,9 @@ It analyzes lead data (company, topic, job title) and generates:
 ```
 User Trigger
      ↓
+
 <img width="1691" height="952" alt="image" src="https://github.com/user-attachments/assets/d124814c-0ab1-4875-808d-63b571b14607" />
+
 Get Lead Data
      ↓
 <img width="578" height="300" alt="image" src="https://github.com/user-attachments/assets/fd6999c2-8437-4656-b6b8-b171e083ff41" />
